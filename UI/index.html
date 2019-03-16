@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/master.css">
+    
+    <title>Msomi | Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+    	<div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" id="app_name"><span></span>MSOMI</a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signup.html">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/login.html">Login</a>
+          </li>
+    	   <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Options
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./templates/chat_page.html">Chat</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            <a class="dropdown-item" href="#">Discussions</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    	</div>
+    </nav>
+
+    <div class="banner">
+    	<div class="container">
+
+    	<div class="banner-text">
+    	<div class="banner-heading">
+        <!-- SEARCH FORM VIEW-->
+
+          <form class="form-inline my-2 my-lg-0" id="search">
+            <input class="form-control mr-lg-2" id="search-input" type="search" placeholder="Search any item ..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+    	An opportunity to learn and grow!
+    	</div>
+    	<div class="banner-sub-heading">
+    	We are glad you've visited MSOMI
+    	</div>
+    	<a href="/UI/auth/signup.html"><button type="button" class="btn btn-info text-dark btn-banner">Get started</button></a>
+    	</div>
+    	</div>
+    </div>
+    <section id="about">
+    <div class="container">
+    	<div class="text-intro">
+    	<h2>About Us</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+    	</div>
+    </div>
+    </section>
+
+<style media="screen">
+
+</style>
+    <script type="text/javascript">
+
+    	$(document).on("scroll", function(){
+    		if
+          ($(document).scrollTop() > 86){
+    		  $("#banner").addClass("shrink");
+    		}
+    		else
+    		{
+    			$("#banner").removeClass("shrink");
+    		}
+    	});
+    </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

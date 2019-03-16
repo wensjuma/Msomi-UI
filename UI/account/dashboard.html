@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!--Navbar -->
+<div class="navs" id="navbar">
+
+</div>
+
+<div class="container progress-bar-striped" id="container">
+    <div class="sidenav">
+        <h4 href="#about" id="dash">Dashboard</h4>
+        <a href="#services">Courses</a>
+        <a href="#clients">Questions</a>
+        <a href="#contact">Resources</a>
+        <a href="#services">Posts</a>
+        <a href="#writing"><span class="glyphicon glyphicon-pencil">Write</span></a>
+        <a href="#clients"><span class="glyphicon glyphicon-bell">Notifications</span></a>
+        <a href="#contact">My groups</a>
+      </div>
+      
+      <div class="main">
+        <h2>Sidebar</h2>
+        </div>
+</div>
+<script>
+  $(function(){
+    $('#navbar').load('/shared/_navbar.html');
+  });
+</script>
+  </body>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>

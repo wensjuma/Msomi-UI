@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Msomi | Login</title>
+
+</head>
+<body>
+  <div class="top" id="navbar">
+
+  </div>
+    <div class="container">
+            <div class="row" style="margin-top:10vh;">
+              <div class="col-sm-3">
+
+              </div>
+              <div class="col-sm-6">
+                <div class="card" >
+          <div class="card-header progress-bar-striped">
+            <h2 style="font-family: 'Lobster', cursive;">Login</h2>
+          </div>
+          <div class="card-body">
+
+    <form action="" method="POST">
+
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+
+    <a href="../account/dashboard.html" class="btn btn-info btn-block" type="submit">Login</a>
+    </form>
+    <a href="/auth/signup.html">Or create an account</a>
+
+      </div>
+    </div>
+          </div>
+          <div class="col-sm-3">
+
+          </div>
+        </div>
+      </div>
+      <script>
+      $(function(){
+        $('#navbar').load('/shared/_navbar.html')
+      });
+      </script>
+</body>
+</html>
