@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Msomi | Discussion Groups</title>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+    </div>
+    <div class="container">
+            <div class="row">
+                    <div class="col-sm-4" style="background-color:#44e5;">
+                     <ul>
+                            <h3 style="padding-top:10px;">My groups</h3>
+                            <hr>
+                               <a href="#"><h5>Msomi1</h5></a>
+                               <hr>
+                               <a href="#"><h5>Msomi group 2</h5></a>
+                               <hr>
+                               <a href="#"><h5>Masters group</h5></a>
+                               <hr>
+                               <a href="#"><h5>Summer blur</h5></a>
+                               <hr>  
+                            <a href="#" data-target="#new-group" data-toggle="modal" class="btn btn-info">Create New group</a>
+                            <div class="modal-dialog">
+                                   <div class="modal-content">
+
+                                   </div>
+                               </div>
+                     </ul>
+                    </div>
+                    <div class="col-sm-8">
+                    </div>
+                </div>
+    </div>
+    <script>
+    $(function(){
+        $('#navbar').load('../shared/_navbar.html')
+    });
+    </script>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>

@@ -17,6 +17,9 @@
      color:#111;
      margin-left: 25px;
 }
+h5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 .sidenav {
   height: 100%;
   width: 250px;
@@ -29,7 +32,9 @@
   padding-top: 20px;
   font-family: "Lato", sans-serif;
 }
-
+a{
+  text-decoration: none !important;
+}
 .sidenav a {
   padding: 12px;
   text-decoration: none;

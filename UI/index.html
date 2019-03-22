@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/master.css">
     
@@ -22,13 +21,13 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/auth/signup.html">SignUp</a>
+            <a class="nav-link" href="./auth/signup.html">SignUp</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/auth/login.html">Login</a>
+            <a class="nav-link" href="./auth/login.html">Login</a>
           </li>
     	   <!-- Dropdown -->
         <li class="nav-item dropdown">
@@ -47,31 +46,82 @@
     </nav>
 
     <div class="banner">
-    	<div class="container">
+    	 <div class="container">
 
     	<div class="banner-text">
-    	<div class="banner-heading">
-        <!-- SEARCH FORM VIEW-->
-
-          <form class="form-inline my-2 my-lg-0" id="search">
-            <input class="form-control mr-lg-2" id="search-input" type="search" placeholder="Search any item ..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-    	An opportunity to learn and grow!
-    	</div>
-    	<div class="banner-sub-heading">
-    	We are glad you've visited MSOMI
-    	</div>
-    	<a href="/UI/auth/signup.html"><button type="button" class="btn btn-info text-dark btn-banner">Get started</button></a>
-    	</div>
-    	</div>
+    	<div class="banner-heading">   
+    	
+      </div>
+    		</div>
+    	</div> 
     </div>
     <section id="about">
+        <div class="jumbotron">
+
+            <div class="text-intro">
+                <a href="./auth/signup.html"><button type="button" class="btn btn-info btn-banner">Get started</button></a>
+                
+            <h2>Msomi Feeds</h2>
+            <form class="form-inline my-2 my-lg-0" id="search">
+                <input class="form-control mr-lg-2" id="search-input" type="search" placeholder="Search any item ..." aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+              </form>
+        
+        </div>
+        </div>
     <div class="container">
-    	<div class="text-intro">
-    	<h2>About Us</h2>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-    	</div>
+   
+   <div class="row">
+     <div class="col-sm-3">
+
+     </div>
+     <div class="col-sm-6">
+        <div class="panel panel-primary">
+            <div class="cards cards-info">
+                <div class="card-header">
+                    <p>Dennis IT</p>
+                  
+                </div>
+                <div class="card-body">
+                  
+                   <p>Whats the rate of growth in tech?</p>
+                </div>
+                <div class="card-footer">
+                    <a  class="dropdown-toggle" data-toggle="dropdown">Answer</a>  
+                  </div>
+                  <ul class="dropdown-menu">
+  
+                      <div class="panel panel-primary" style="width:300px;">
+                        <div class="panel-heading">Login</div>
+                        <div class="panel-body">
+                          <form onsubmit="return false" id="answer">
+                           <textarea name="answer" id="id_answer" cols="30" rows="10"></textarea>
+                          </form>
+                        </div>
+                        <div class="panel-footer" id="e_msg"></div>
+        
+                    </div>
+                  </ul>
+                
+              </div>
+              
+              <div class="cards cards-info">
+                  <div class="card-header">
+          
+                  </div>
+                  <div class="card-body">
+          
+                  </div>
+                  <div class="card-footer">
+          
+                  </div>
+                </div>
+         </div>
+     </div>
+     <div class="col-sm-3">
+
+     </div>
+   </div>
     </div>
     </section>
 
